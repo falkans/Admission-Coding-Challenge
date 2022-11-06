@@ -1,0 +1,95 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../resources/background.jpg);
+  background-size: cover;
+  font-family: 'open sans', sans-serif;
+} 
+
+main {
+  background: rgba(0,0,0,.5);
+  border-radius: 5px;
+  width: 80%;
+  max-width: 1280px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 80px;
+}
+
+header img {
+  height: 100px;
+}
+
+header h1 {
+  color: #00dd00;
+}
+
+nav {
+  background: #00dd00;
+  padding: 1em;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+.scooters {
+  text-align: left;
+}
+
+.tile-scooter {
+  margin: 1em;
+  width: 60%;
+  color: white;
+}
+
+.tile-scooter label {
+  font-size: 1.2em;
+}
+
+.tile-scooter p {
+  font-size: .9em;
+  font-weight: 300;
+  margin: 4px 0;
+}
+
+.tile-scooter p::before {
+  content: '\21A6';
+  font-size: 1.2em;
+  padding-right: 4px;
+}
+
+.tile-scooter h6 {
+  font-size: 1em;
+  font-weight: 300;
+  margin: 0;
+}
+
+.tile-scooter .carica {
+  height: 20px;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+
+.tile-scooter .c50 {
+  width: 50%;
+  background-color: orange;
+}
+
+.tile-scooter .c90 {
+  width: 90%;
+  background-color: green;
+}
+
+.tile-scooter .c30 {
+  width: 30%;
+  background-color: brown;
+}
